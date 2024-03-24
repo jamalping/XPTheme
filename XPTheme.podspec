@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XPTheme"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "XPTheme."
 
   s.description  = <<-DESC
@@ -28,11 +28,11 @@ Pod::Spec.new do |s|
   s.source_files = "XPTheme/Classes/**/*"
 
   #- 推荐这种 -#
-  # s.resource_bundles = {
-  #   "XPTheme" => ["XPTheme/Assets/**/*"]
-  # }
+   s.resource_bundles = {
+     "XPTheme" => ["XPTheme/Assets/**/*"]
+   }
 
-  # s.resources  = "XPTheme/**/*.{storyboard,xib}", "XPTheme/Assets/*"
+#   s.resources  = "XPTheme/**/*.{storyboard,xib}", "XPTheme/Assets/*"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"

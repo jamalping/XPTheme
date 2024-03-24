@@ -1,5 +1,5 @@
 PODS:
-  - XPTheme (0.1.0)
+  - XPTheme (0.0.1)
 
 DEPENDENCIES:
   - XPTheme (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XPTheme: 0471c77bc83b8654966bebda2212c79e6a11e776
+  XPTheme: 5d4ba93e4a569a14da949adbcf59306ae76d7188
 
-PODFILE CHECKSUM: 64af4cea3734dc697e1c3c3e13042a06dd6188b5
+PODFILE CHECKSUM: 1fdba65f8441bcee340df368cd4197fa7a20dccb
 
 COCOAPODS: 1.11.3

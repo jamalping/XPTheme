@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0B3CA37E0B599DA9979CAA21 /* Pods_XPTheme_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E652D0096D0844C3EA6FC0A6 /* Pods_XPTheme_Example.framework */; };
-		0E9D78D81B28B3F2BC492C86 /* Pods_XPTheme_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6655FF86DBF8AF5C1911D90 /* Pods_XPTheme_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,7 +28,7 @@
 
 /* Begin PBXFileReference section */
 		08AB2FBB8B0DD4397E55E5B5 /* Pods-XPTheme_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPTheme_Example.release.xcconfig"; path = "Target Support Files/Pods-XPTheme_Example/Pods-XPTheme_Example.release.xcconfig"; sourceTree = "<group>"; };
-		20FBD60C3FC16EF77EDA92D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		20FBD60C3FC16EF77EDA92D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		54481BBF8C964E135B3251CB /* Pods-XPTheme_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPTheme_Example.debug.xcconfig"; path = "Target Support Files/Pods-XPTheme_Example/Pods-XPTheme_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XPTheme_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPTheme_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,11 +40,8 @@
 		607FACE51AFB9204008FA782 /* XPTheme_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPTheme_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6AAFFE79C2BA2EDEC66DE963 /* XPTheme.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XPTheme.podspec; path = ../XPTheme.podspec; sourceTree = "<group>"; };
-		8931D8E212008C927129C769 /* Pods-XPTheme_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPTheme_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XPTheme_Tests/Pods-XPTheme_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D35B6E613667916C0393D04 /* Pods-XPTheme_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPTheme_Tests.release.xcconfig"; path = "Target Support Files/Pods-XPTheme_Tests/Pods-XPTheme_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B2E2DFDFA988A0016AFC6F54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C6655FF86DBF8AF5C1911D90 /* Pods_XPTheme_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XPTheme_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAFFE79C2BA2EDEC66DE963 /* XPTheme.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XPTheme.podspec; path = ../XPTheme.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2E2DFDFA988A0016AFC6F54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E652D0096D0844C3EA6FC0A6 /* Pods_XPTheme_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XPTheme_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -62,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E9D78D81B28B3F2BC492C86 /* Pods_XPTheme_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,10 +69,7 @@
 			children = (
 				54481BBF8C964E135B3251CB /* Pods-XPTheme_Example.debug.xcconfig */,
 				08AB2FBB8B0DD4397E55E5B5 /* Pods-XPTheme_Example.release.xcconfig */,
-				8931D8E212008C927129C769 /* Pods-XPTheme_Tests.debug.xcconfig */,
-				9D35B6E613667916C0393D04 /* Pods-XPTheme_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				E652D0096D0844C3EA6FC0A6 /* Pods_XPTheme_Example.framework */,
-				C6655FF86DBF8AF5C1911D90 /* Pods_XPTheme_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,7 +177,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "XPTheme_Tests" */;
 			buildPhases = (
-				FC1B31C189F36722DFA9DFDF /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -227,6 +217,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -300,28 +291,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XPTheme_Example/Pods-XPTheme_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FC1B31C189F36722DFA9DFDF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-XPTheme_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -505,7 +474,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8931D8E212008C927129C769 /* Pods-XPTheme_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -527,7 +495,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D35B6E613667916C0393D04 /* Pods-XPTheme_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

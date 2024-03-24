@@ -1,5 +1,4 @@
 import XCTest
-import XPTheme
 
 class Tests: XCTestCase {
     

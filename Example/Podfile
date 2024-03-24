@@ -1,8 +1,6 @@
 platform :ios, '9.0'
 use_frameworks!
 
-source 'https://gitlab.com/aastocks/ios/public/aapodspec.git'
-source 'https://gitlab.com/aastocks/aapodspec.git'
 source 'https://github.com/CocoaPods/Specs.git'
 source 'git@gitee.com:jamalping/xpspecs.git'
 
