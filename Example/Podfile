@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'XPTheme_Example' do
+  pod 'XPTheme', :path => '../'
+
+  target 'XPTheme_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
